@@ -1,0 +1,1451 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cUsers\u005c93haq\u005cDocuments\u005cTwineGames\u005cTheLodgeBuilds\u005cLodgeWorkingColor\u005cindex.html
+p2
+sS'saveDestination'
+p3
+VC:\u005cUsers\u005c93haq\u005cDocuments\u005cTwineGames\u005cTheLodge\u005cTheLodge.tws
+p4
+sS'metadata'
+p5
+(dp6
+sS'target'
+p7
+S'sugarcane'
+p8
+sS'storyPanel'
+p9
+(dp10
+S'widgets'
+p11
+(lp12
+(dp13
+S'selected'
+p14
+I00
+sS'pos'
+p15
+(lp16
+I10
+aI10
+asS'passage'
+p17
+(itiddlywiki
+Tiddler
+p18
+(dp20
+S'text'
+p21
+VAs a resident of the Silverfang lodge, I hereby agree to uphold its traditions, take care of its assets, and do my best to ensure my own personal mental and spiritual well-being for the betterment for the community.\u000a\u000aI also grant the community permission to do as they see fit with my likeness as is relevant for advertisement, community-out reach, social media and rituals.\u000a\u000aI understand that failure on my part to meet the community's expectations would result in my immediate removal from the premises. \u000a\u000a<<textinput $name [[Sign|Welcome]]>>
+p22
+sS'title'
+p23
+VStart
+p24
+sS'modified'
+p25
+ctime
+struct_time
+p26
+((I2018
+I4
+I9
+I8
+I22
+I25
+I0
+I99
+I1
+tp27
+(dp28
+tp29
+Rp30
+sS'tags'
+p31
+(lp32
+sS'created'
+p33
+g26
+((I2018
+I4
+I8
+I10
+I43
+I9
+I6
+I98
+I1
+tp34
+(dp35
+tp36
+Rp37
+sbsa(dp38
+g14
+I00
+sg15
+(lp39
+I10
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p40
+(dp41
+g21
+VThe Lodge
+p42
+sg23
+VStoryTitle
+p43
+sg25
+g26
+((I2018
+I4
+I8
+I14
+I45
+I4
+I6
+I98
+I1
+tp44
+(dp45
+tp46
+Rp47
+sg31
+(lp48
+sg33
+g26
+((I2018
+I4
+I8
+I10
+I43
+I9
+I6
+I98
+I1
+tp49
+(dp50
+tp51
+Rp52
+sbsa(dp53
+g14
+I00
+sg15
+(lp54
+I10
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g21
+VMostafa Haque
+p57
+sg23
+VStoryAuthor
+p58
+sg25
+g26
+((I2018
+I4
+I9
+I8
+I49
+I5
+I0
+I99
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg31
+(lp63
+sg33
+g26
+((I2018
+I4
+I8
+I10
+I43
+I9
+I6
+I98
+I1
+tp64
+(dp65
+tp66
+Rp67
+sbsa(dp68
+g14
+I00
+sg15
+(lp69
+I150
+aI10
+asg17
+(itiddlywiki
+Tiddler
+p70
+(dp71
+g21
+V<<silently>>\u000a<<set $hour = 06>>\u000a<<set $day = 1>>\u000a<<set $spirituality = 50>>\u000a<<set $energy = 100>>\u000a<<set $propertyHealth = 100>>\u000a<<set $enjoyment = 100>>\u000a<<set $food = 0>>\u000a<<set $hunger = 50>>\u000a<<set $currentSound = "textureWind.wav">>\u000a<<playsound $currentSound>>\u000a<<endsilently>>\u000a\u000aDay <<$day>>. <<if $hour<10>> 0<<$hour>>00 hours.<<else>><<$hour>>00 hours.<<endif>>\u000aGreetings <<$name>><<if $energy>50>>\u000aYou feel great.<<else if $energy<20>>\u000aYou are extremely exhausted<<else>>\u000aYou are feeling a bit tired.<<endif>><<if $hunger>50>>\u000aYou feel pretty full.<<else if $hunger<30>>\u000aYou are starving.<<else>>\u000aYou are starting to get a bit hungry.<<endif>><<if $enjoyment>50>>\u000aYou are happy with yourself.<<else if $enjoyment<30>>\u000aYou feel content.<<else>>\u000aYou are miserable.<<set $energy = $energy-20>><<endif>><<if $spirituality > 190>> \u000aEverything around you seems to be humming in unison. You are ready.<<else if $spirituality>150>>\u000aYou are becoming more enlightened.<<else if $spirituality >100>> \u000aYou are on the path of Ascension.<<else if $spirituality >49>> \u000aYou are at a neutral spiritually state.<<else if $spirituality >25>> You are becoming more attached to the physical world.<<else>>\u000aYou are losing your way. <<endif>> \u000aWhat would you like to do?\u000a\u000a[[Sleep|Sleep]]\u000a[[Make food|MakeFood]]\u000a[[Clean property|CleanProperty]]\u000a[[Watch TV|TV]]\u000a[[Play video games|VideoGames]]\u000a[[Pray|Pray]]\u000a[[Go for a walk|Walk]]<<if $food >0>>\u000a[[Eat food|Food]]<<endif>>\u000a\u000a\u000a
+p72
+sg23
+VWelcome
+p73
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I12
+I6
+I0
+I99
+I1
+tp74
+(dp75
+tp76
+Rp77
+sg31
+(lp78
+sg33
+g26
+((I2018
+I4
+I8
+I22
+I45
+I11
+I6
+I98
+I1
+tp79
+(dp80
+tp81
+Rp82
+sbsa(dp83
+g14
+I00
+sg15
+(lp84
+I150
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p85
+(dp86
+g21
+V<<silently>>\u000a<<set $hour = $hour +1>>\u000a<<set $day = $day>>\u000a<<set $spirituality = $spirituality+10 >>\u000a<<set $energy = $energy - 20>>\u000a<<set $propertyHealth = $propertyHealth+10>>\u000a<<set $enjoyment = $enjoyment-20>>\u000a<<set $food = $food>>\u000a<<set $hunger = $hunger-20>>\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "dailyChime.wav">>\u000a<<playsound $currentSound>>\u000a<<endsilently>>\u000a\u000a<<if $energy >0>>\u000aYou clean up the property. It's holding up a bit better now.\u000a[[Done|DayInterlude]]\u000a<<else>>\u000aYou pass out from pure exhaustion \u000a[[Continue|ExhaustedEnd]]\u000a<<endif>>
+p87
+sg23
+VCleanProperty
+p88
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I22
+I54
+I0
+I99
+I1
+tp89
+(dp90
+tp91
+Rp92
+sg31
+(lp93
+sg33
+g26
+((I2018
+I4
+I8
+I22
+I57
+I25
+I6
+I98
+I1
+tp94
+(dp95
+tp96
+Rp97
+sbsa(dp98
+g14
+I00
+sg15
+(lp99
+I290
+aI10
+asg17
+(itiddlywiki
+Tiddler
+p100
+(dp101
+g21
+V<<silently>>\u000a<<set $hour = $hour +1>>\u000a<<set $day = $day>>\u000a<<set $spirituality = $spirituality>>\u000a<<set $energy = $energy - 10>>\u000a<<set $propertyHealth = $propertyHealth-10>>\u000a<<set $enjoyment = $enjoyment-20>>\u000a<<set $food = $food+1>>\u000a<<set $hunger = $hunger-10>>\u000a<<endsilently>>\u000a\u000a<<if $energy >0>>\u000aYou make more food for your own consumption.\u000a[[Done|DayInterlude]]\u000a<<else>>\u000aYou pass out from pure exhaustion \u000a[[Continue|ExhaustedEnd]]\u000a<<endif>>
+p102
+sg23
+VMakeFood
+p103
+sg25
+g26
+((I2018
+I4
+I8
+I23
+I33
+I16
+I6
+I98
+I1
+tp104
+(dp105
+tp106
+Rp107
+sg31
+(lp108
+sg33
+g26
+((I2018
+I4
+I8
+I22
+I57
+I25
+I6
+I98
+I1
+tp109
+(dp110
+tp111
+Rp112
+sbsa(dp113
+g14
+I00
+sg15
+(lp114
+I290
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p115
+(dp116
+g21
+V<<silently>>\u000a<<set $hour = $hour +1>>\u000a<<set $day = $day>>\u000a<<set $spirituality = $spirituality-20 >>\u000a<<set $energy = $energy>>\u000a<<set $propertyHealth = $propertyHealth-20>>\u000a<<set $enjoyment = $enjoyment+30>>\u000a<<set $food = $food>>\u000a<<set $hunger = $hunger-10>>\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "dailyChime.wav">>\u000a<<playsound $currentSound>>\u000a<<endsilently>>\u000a\u000a<<if $energy >0>>\u000aYou watch some TV. You feel less bored now.\u000a[[Done|DayInterlude]]\u000a<<else>>\u000aYou pass out from pure exhaustion \u000a[[Continue|ExhaustedEnd]]\u000a<<endif>>
+p117
+sg23
+VTV
+p118
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I24
+I14
+I0
+I99
+I1
+tp119
+(dp120
+tp121
+Rp122
+sg31
+(lp123
+sg33
+g26
+((I2018
+I4
+I8
+I22
+I57
+I25
+I6
+I98
+I1
+tp124
+(dp125
+tp126
+Rp127
+sbsa(dp128
+g14
+I00
+sg15
+(lp129
+I290
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p130
+(dp131
+g21
+V<<silently>>\u000a<<set $hour = $hour +1>>\u000a<<set $day = $day>>\u000a<<set $spirituality = $spirituality+40 >>\u000a<<set $energy = $energy -30>>\u000a<<set $propertyHealth = $propertyHealth>>\u000a<<set $enjoyment = $enjoyment+10>>\u000a<<set $food = $food>>\u000a<<set $hunger = $hunger-20>>\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "longHarmonic.wav">>\u000a<<playsound $currentSound>>\u000a<<endsilently>>\u000a\u000a<<if $energy >0>>\u000aYou go for a walk along the mountain pathways. You feel a stronger connection with the world around you.\u000a[[Done|DayInterlude]]\u000a<<else>>\u000aYou pass out from pure exhaustion \u000a[[Continue|ExhaustedEnd]]\u000a<<endif>>
+p132
+sg23
+VWalk
+p133
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I36
+I47
+I0
+I99
+I1
+tp134
+(dp135
+tp136
+Rp137
+sg31
+(lp138
+sg33
+g26
+((I2018
+I4
+I8
+I22
+I57
+I25
+I6
+I98
+I1
+tp139
+(dp140
+tp141
+Rp142
+sbsa(dp143
+g14
+I00
+sg15
+(lp144
+I150
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p145
+(dp146
+g21
+V<<silently>>\u000a<<set $hour = $hour +1>>\u000a<<set $day = $day>>\u000a<<set $spirituality = $spirituality+30 >>\u000a<<set $energy = $energy +5>>\u000a<<set $propertyHealth = $propertyHealth>>\u000a<<set $enjoyment = $enjoyment-30>>\u000a<<set $food = $food>>\u000a<<set $hunger = $hunger-10>>\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "longHarmonic.wav">>\u000a<<playsound $currentSound>>\u000a<<endsilently>>\u000a\u000a<<if $energy >0>>\u000aYou pray in the meditation area. You feel a stronger connection with the world around you. <<playsound "longHarmonic.wav">>\u000a[[Done|DayInterlude]]\u000a<<else>>\u000aYou pass out from pure exhaustion \u000a[[Continue|ExhaustedEnd]]\u000a<<endif>>
+p147
+sg23
+VPray
+p148
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I36
+I52
+I0
+I99
+I1
+tp149
+(dp150
+tp151
+Rp152
+sg31
+(lp153
+sg33
+g26
+((I2018
+I4
+I8
+I22
+I57
+I25
+I6
+I98
+I1
+tp154
+(dp155
+tp156
+Rp157
+sbsa(dp158
+g14
+I00
+sg15
+(lp159
+I430
+aI10
+asg17
+(itiddlywiki
+Tiddler
+p160
+(dp161
+g21
+V<<silently>>\u000a<<set $hour = $hour +1>>\u000a<<set $day = $day>>\u000a<<set $spirituality = $spirituality-20 >>\u000a<<set $energy = $energy - 10>>\u000a<<set $propertyHealth = $propertyHealth>>\u000a<<set $enjoyment = $enjoyment+30>>\u000a<<set $food = $food>>\u000a<<set $hunger = $hunger-10>>\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "dailyChime.wav">>\u000a<<playsound $currentSound>>\u000a<<endsilently>>\u000a\u000a<<if $energy >0>>\u000aYou play some games. You feel less bored now.\u000a[[Done|DayInterlude]]\u000a<<else>>\u000aYou pass out from pure exhaustion \u000a[[Continue|ExhaustedEnd]]\u000a<<endif>>
+p162
+sg23
+VVideoGames
+p163
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I24
+I43
+I0
+I99
+I1
+tp164
+(dp165
+tp166
+Rp167
+sg31
+(lp168
+sg33
+g26
+((I2018
+I4
+I8
+I22
+I57
+I25
+I6
+I98
+I1
+tp169
+(dp170
+tp171
+Rp172
+sbsa(dp173
+g14
+I00
+sg15
+(lp174
+I430
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p175
+(dp176
+g21
+V<<silently>>\u000a<<set $hour = $hour +1>>\u000a<<set $day = $day>>\u000a<<if $hunger>50>>\u000a<<set $spirituality = $spirituality-20>>\u000a<<endif>>\u000a<<set $energy = $energy>>\u000a<<set $propertyHealth = $propertyHealth>>\u000a<<set $enjoyment = $enjoyment+5>>\u000a<<set $food = $food-1>>\u000a<<set $hunger = $hunger+50>>\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "dailyChime.wav">>\u000a<<playsound $currentSound>>\u000a<<endsilently>>\u000a\u000a<<if $energy >0>>\u000aYou eat some food. You feel less hungry.\u000a[[Done|DayInterlude]]\u000a<<else>>\u000aYou pass out from pure exhaustion \u000a[[Continue|ExhaustedEnd]]\u000a<<endif>>
+p177
+sg23
+VFood
+p178
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I24
+I21
+I0
+I99
+I1
+tp179
+(dp180
+tp181
+Rp182
+sg31
+(lp183
+sg33
+g26
+((I2018
+I4
+I8
+I23
+I1
+I23
+I6
+I98
+I1
+tp184
+(dp185
+tp186
+Rp187
+sbsa(dp188
+g14
+I00
+sg15
+(lp189
+I430
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p190
+(dp191
+g21
+V<<silently>>\u000a<<if $hour is 24>>\u000a<<set $day = $day+1>>\u000a<<set $hour = 0>>\u000a<<fadeoutsound $currentSound >>\u000a<<set $currentSound = "textureWind.wav">>\u000a<<playsound $currentSound>>\u000a<<endif>>\u000a\u000a<<endsilently>>\u000aDay <<$day>>.\u000a<<if $hour<10>> 0<<$hour>>00 hours.<<else>><<$hour>>00 hours.<<endif>><<if $hour > 17>><<display "blue">><<else>><<display "orange">><<endif>>\u000aGreetings <<$name>><<if $energy>50>>\u000aYou feel great.<<else if $energy<20>>\u000aYou are extremely exhausted<<else>>\u000aYou are feeling a bit tired.<<endif>><<if $hunger>50>>\u000aYou feel pretty full.<<else if $hunger<30>>\u000aYou are starving.<<else>>\u000aYou are starting to get a bit hungry.<<endif>><<if $enjoyment>50>>\u000aYou are happy with yourself.<<else if $enjoyment<30>>\u000aYou are miserable. Your unahppiness is draining your energy<<set $energy = $energy-20>><<else>>\u000aYou feel content.<<endif>><<if $spirituality > 190>> \u000aEverything around you seems to be humming in unison. You are ready.<<else if $spirituality>150>>\u000aYou are becoming more enlightened.<<else if $spirituality >100>> \u000aYou are on the path of Ascension.<<else if $spirituality >49>> \u000aYou are at a neutral spiritual state.<<else if $spirituality >25>> You are becoming more attached to the physical world.<<else>>\u000aYou are losing your way. <<endif>> \u000aWhat would you like to do?\u000a\u000a[[Sleep|Sleep]]\u000a[[Make food|MakeFood]]\u000a[[Clean property|CleanProperty]]\u000a[[Watch TV|TV]]\u000a[[Play video games|VideoGames]]\u000a[[Pray|Pray]]\u000a[[Go for a walk|Walk]]<<if $food >0>>\u000a[[Eat food|Food]]<<endif>>\u000a[[Go to the Peak|Peak]]\u000a\u000a
+p192
+sg23
+VDay
+p193
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I10
+I23
+I0
+I99
+I1
+tp194
+(dp195
+tp196
+Rp197
+sg31
+(lp198
+sg33
+g26
+((I2018
+I4
+I8
+I23
+I4
+I39
+I6
+I98
+I1
+tp199
+(dp200
+tp201
+Rp202
+sbsa(dp203
+g14
+I00
+sg15
+(lp204
+I290
+aI430
+asg17
+(itiddlywiki
+Tiddler
+p205
+(dp206
+g21
+VThe Lodge cannot have members who take such poor care of themselves.\u000a\u000aEND\u000a[[Restart|Start]]\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "gong.wav">>\u000a<<playsound $currentSound>>
+p207
+sg23
+VExhaustedEnd
+p208
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I27
+I27
+I0
+I99
+I1
+tp209
+(dp210
+tp211
+Rp212
+sg31
+(lp213
+sg33
+g26
+((I2018
+I4
+I8
+I23
+I13
+I38
+I6
+I98
+I1
+tp214
+(dp215
+tp216
+Rp217
+sbsa(dp218
+g14
+I00
+sg15
+(lp219
+I710
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p220
+(dp221
+g21
+V<<if $propertyHealth <1>>\u000aThe property looks like a storm's hit it. You will answer to the committee for this.\u000a\u000a[[Continue|PropertyEnd]]\u000a<<else if $hunger < 0>>\u000aYou pass out from hunger.\u000a\u000a[[Continue|HungerEnding]]\u000a<<else if $spirituality < 0>>\u000aYou hear a knock at the door\u000a\u000a[[Continue|SpiritEnd]]\u000a<<else>>\u000aAn hour passes as you do your task\u000a[[Continue|Day]]\u000a<<endif>>\u000a\u000a\u000a<<if $hour > 17>><<display "blue">><<else>><<display "orange">><<endif>>
+p222
+sg23
+VDayInterlude
+p223
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I30
+I11
+I0
+I99
+I1
+tp224
+(dp225
+tp226
+Rp227
+sg31
+(lp228
+sg33
+g26
+((I2018
+I4
+I8
+I23
+I15
+I16
+I6
+I98
+I1
+tp229
+(dp230
+tp231
+Rp232
+sbsa(dp233
+g14
+I00
+sg15
+(lp234
+I150
+aI430
+asg17
+(itiddlywiki
+Tiddler
+p235
+(dp236
+g21
+VYou have been removed from the Lodge for misuse of Lodge Property.\u000a\u000aEND\u000a[[Restart|Start]]\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "gong.wav">>\u000a<<playsound $currentSound>>
+p237
+sg23
+VPropertyEnd
+p238
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I27
+I17
+I0
+I99
+I1
+tp239
+(dp240
+tp241
+Rp242
+sg31
+(lp243
+sg33
+g26
+((I2018
+I4
+I8
+I23
+I20
+I3
+I6
+I98
+I1
+tp244
+(dp245
+tp246
+Rp247
+sbsa(dp248
+g14
+I00
+sg15
+(lp249
+I430
+aI430
+asg17
+(itiddlywiki
+Tiddler
+p250
+(dp251
+g21
+VIt is the members of the lodge. They remove you from the premise for being too strongly bound to earthly desires.\u000a\u000aEND\u000a[[Restart|Start]]\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "gong.wav">>\u000a<<playsound $currentSound>>
+p252
+sg23
+VSpiritEnd
+p253
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I27
+I31
+I0
+I99
+I1
+tp254
+(dp255
+tp256
+Rp257
+sg31
+(lp258
+sg33
+g26
+((I2018
+I4
+I8
+I23
+I20
+I3
+I6
+I98
+I1
+tp259
+(dp260
+tp261
+Rp262
+sbsa(dp263
+g14
+I00
+sg15
+(lp264
+I570
+aI430
+asg17
+(itiddlywiki
+Tiddler
+p265
+(dp266
+g21
+VThe Lodge cannot have members who take such poor care of themselves.\u000a\u000aEND\u000a[[Restart|Start]]\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "gong.wav">>\u000a<<playsound $currentSound>>
+p267
+sg23
+VHungerEnding
+p268
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I27
+I35
+I0
+I99
+I1
+tp269
+(dp270
+tp271
+Rp272
+sg31
+(lp273
+sg33
+g26
+((I2018
+I4
+I8
+I23
+I27
+I59
+I6
+I98
+I1
+tp274
+(dp275
+tp276
+Rp277
+sbsa(dp278
+g14
+I00
+sg15
+(lp279
+I570
+aI10
+asg17
+(itiddlywiki
+Tiddler
+p280
+(dp281
+g21
+V<<if $spirituality > 200>>\u000a<<silently>>\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "heavensFeel.wav">>\u000a<<playsound $currentSound>>\u000a<<endsilently>>\u000aIt appears as though the world itself is attuned to your very breathing. The Sky. The Snow. The homes far below. All of it seems to become a part of a greater whole.\u000a\u000a[[Continue|PeakEnd]]\u000a\u000a\u000a<<else>>\u000a<<silently>>\u000a<<fadeoutsound $currentSound>>\u000a<<set $currentSound = "windFields.wav">>\u000a<<playsound $currentSound>>\u000a<<endsilently>>\u000aYou attempt to connect to the world around you. But you feel nothing. You need to be better connected to everything around you to progress.\u000a\u000a<<set $hour = $hour+1>>\u000a\u000a[[Go back|Day]]\u000a<<endif>>
+p282
+sg23
+VPeak
+p283
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I32
+I1
+I0
+I99
+I1
+tp284
+(dp285
+tp286
+Rp287
+sg31
+(lp288
+sg33
+g26
+((I2018
+I4
+I8
+I23
+I44
+I14
+I6
+I98
+I1
+tp289
+(dp290
+tp291
+Rp292
+sbsa(dp293
+g14
+I00
+sg15
+(lp294
+I990
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p295
+(dp296
+g21
+Vbody {\u000a  margin: 0;\u000a  padding: 0;\u000a}\u000a#passages {\u000a  margin: 0 5% 0 5%;\u000a  padding: 2.5% 0 5% 0;\u000a  border-left: saddlebrown solid 1.5em;\u000a  height:auto;\u000a  background: #3d1d08;\u000a  background: -webkit-radial-gradient(center, ellipse cover,  #3d1d08 0%,#000000 80%);\u000a  background: radial-gradient(ellipse at center,  #3d1d08 0%,#000000 80%);\u000a}\u000a.header {\u000a  width: 25%;\u000a  border-top: saddlebrown solid 0.1em;\u000a  margin: auto;\u000a  padding: 0 0 2.5% 0;\u000a}\u000a.passage {\u000a  margin: 2em;\u000a  font-family: "Georgia", serif;\u000a  font-size:2.2em; \u000a  color: peru;\u000a  text-shadow: sienna 0.05em 0.05em 0.05em;\u000a}\u000aa.internalLink, a.externalLink {\u000a  color: burlywood;\u000a  text-shadow: peru 0.05em 0.05em 0.05em;\u000a}\u000aa.internalLink:hover, a.externalLink:hover {\u000a  color: cornsilk;\u000a  text-decoration: none;\u000a  text-shadow: peru 0.05em 0.05em 0.05em;\u000a}\u000a#sidebar {\u000a	display:none;\u000a}
+p297
+sg23
+Vstylesheet orange
+p298
+sg25
+g26
+((I2018
+I4
+I9
+I8
+I21
+I50
+I0
+I99
+I1
+tp299
+(dp300
+tp301
+Rp302
+sg31
+(lp303
+Vstylesheet
+p304
+asg33
+g26
+((I2018
+I4
+I9
+I8
+I21
+I33
+I0
+I99
+I1
+tp305
+(dp306
+tp307
+Rp308
+sbsa(dp309
+g14
+I00
+sg15
+(lp310
+I990
+aI10
+asg17
+(itiddlywiki
+Tiddler
+p311
+(dp312
+g21
+Vbody {\u000a  margin: 0;\u000a  padding: 0;\u000a}\u000a#passages {\u000a  margin: 0 5% 0 5%;\u000a  padding: 2.5% 0 5% 0;\u000a  border-left: 	#13598b solid 1.5em;\u000a  height:auto;\u000a  background: #313E81;\u000a  background: -webkit-radial-gradient(center, ellipse cover,  #313E81 0%,#000000 80%);\u000a  background: radial-gradient(ellipse at center,  #313E81 0%,#000000 80%);\u000a}\u000a.header {\u000a  width: 25%;\u000a  border-top: #13598b solid 0.1em;\u000a  margin: auto;\u000a  padding: 0 0 2.5% 0;\u000a}\u000a.passage {\u000a  margin: 2em;\u000a  font-family: "Georgia", serif;\u000a  font-size:2.2em; \u000a  color: #3f87cd;\u000a  text-shadow: sienna 0.05em 0.05em 0.05em;\u000a}\u000aa.internalLink, a.externalLink {\u000a  color: #87adde;\u000a  text-shadow: #3f87cd 0.05em 0.05em 0.05em;\u000a}\u000aa.internalLink:hover, a.externalLink:hover {\u000a  color: #dce3ff;\u000a  text-decoration: none;\u000a  text-shadow: #3f87cd 0.05em 0.05em 0.05em;\u000a}\u000a#sidebar {\u000a	display:none;\u000a}
+p313
+sg23
+Vstylesheet blue
+p314
+sg25
+g26
+((I2018
+I4
+I9
+I8
+I44
+I55
+I0
+I99
+I1
+tp315
+(dp316
+tp317
+Rp318
+sg31
+(lp319
+Vstylesheet
+p320
+aVblue
+p321
+asg33
+g26
+((I2018
+I4
+I9
+I8
+I29
+I21
+I0
+I99
+I1
+tp322
+(dp323
+tp324
+Rp325
+sbsa(dp326
+g14
+I00
+sg15
+(lp327
+I990
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p328
+(dp329
+g21
+V<style>\u000abody {\u000a  margin: 0;\u000a  padding: 0;\u000a}\u000a#passages {\u000a  margin: 0 5% 0 5%;\u000a  padding: 2.5% 0 5% 0;\u000a  border-left: 	#13598b solid 1.5em;\u000a  height:auto;\u000a  background: #313E81;\u000a  background: -webkit-radial-gradient(center, ellipse cover,  #313E81 0%,#000000 80%);\u000a  background: radial-gradient(ellipse at center,  #313E81 0%,#000000 80%);\u000a}\u000a.header {\u000a  width: 25%;\u000a  border-top: #13598b solid 0.1em;\u000a  margin: auto;\u000a  padding: 0 0 2.5% 0;\u000a}\u000a.passage {\u000a  margin: 2em;\u000a  font-family: "Georgia", serif;\u000a  font-size:2.2em; \u000a  color: #3f87cd;\u000a  text-shadow: sienna 0.05em 0.05em 0.05em;\u000a}\u000aa.internalLink, a.externalLink {\u000a  color: #87adde;\u000a  text-shadow: #3f87cd 0.05em 0.05em 0.05em;\u000a}\u000aa.internalLink:hover, a.externalLink:hover {\u000a  color: #dce3ff;\u000a  text-decoration: none;\u000a  text-shadow: #3f87cd 0.05em 0.05em 0.05em;\u000a}\u000a#sidebar {\u000a	display:none;\u000a}\u000a\u000a</style>
+p330
+sg23
+Vblue
+p331
+sg25
+g26
+((I2018
+I4
+I9
+I8
+I46
+I11
+I0
+I99
+I1
+tp332
+(dp333
+tp334
+Rp335
+sg31
+(lp336
+sg33
+g26
+((I2018
+I4
+I9
+I8
+I45
+I21
+I0
+I99
+I1
+tp337
+(dp338
+tp339
+Rp340
+sbsa(dp341
+g14
+I00
+sg15
+(lp342
+I1130
+aI290
+asg17
+(itiddlywiki
+Tiddler
+p343
+(dp344
+g21
+V<style>\u000abody {\u000a  margin: 0;\u000a  padding: 0;\u000a}\u000a#passages {\u000a  margin: 0 5% 0 5%;\u000a  padding: 2.5% 0 5% 0;\u000a  border-left: saddlebrown solid 1.5em;\u000a  height:auto;\u000a  background: #3d1d08;\u000a  background: -webkit-radial-gradient(center, ellipse cover,  #3d1d08 0%,#000000 80%);\u000a  background: radial-gradient(ellipse at center,  #3d1d08 0%,#000000 80%);\u000a}\u000a.header {\u000a  width: 25%;\u000a  border-top: saddlebrown solid 0.1em;\u000a  margin: auto;\u000a  padding: 0 0 2.5% 0;\u000a}\u000a.passage {\u000a  margin: 2em;\u000a  font-family: "Georgia", serif;\u000a  font-size:2.2em; \u000a  color: peru;\u000a  text-shadow: sienna 0.05em 0.05em 0.05em;\u000a}\u000aa.internalLink, a.externalLink {\u000a  color: burlywood;\u000a  text-shadow: peru 0.05em 0.05em 0.05em;\u000a}\u000aa.internalLink:hover, a.externalLink:hover {\u000a  color: cornsilk;\u000a  text-decoration: none;\u000a  text-shadow: peru 0.05em 0.05em 0.05em;\u000a}\u000a#sidebar {\u000a	display:none;\u000a}\u000a\u000a</style>
+p345
+sg23
+Vorange
+p346
+sg25
+g26
+((I2018
+I4
+I9
+I9
+I3
+I35
+I0
+I99
+I1
+tp347
+(dp348
+tp349
+Rp350
+sg31
+(lp351
+sg33
+g26
+((I2018
+I4
+I9
+I8
+I45
+I21
+I0
+I99
+I1
+tp352
+(dp353
+tp354
+Rp355
+sbsa(dp356
+g14
+I00
+sg15
+(lp357
+I10
+aI430
+asg17
+(itiddlywiki
+Tiddler
+p358
+(dp359
+g21
+V<<silently>>\u000a<<set $hour = $hour +1>>\u000a<<set $day = $day>>\u000a<<set $spirituality = $spirituality>>\u000a<<set $energy = $energy +10>>\u000a<<set $propertyHealth = $propertyHealth>>\u000a<<set $enjoyment = $enjoyment>>\u000a<<set $food = $food>>\u000a<<set $hunger = $hunger-10>>\u000a<<endsilently>>\u000a\u000a<<if $hunger >0>>\u000aYou fall asleep. \u000a<<if $hour<10>> 0<<$hour>>00 hours.<<else>><<$hour>>00 hours.<<endif>><<if $hour > 17>><<display "blue">><<else>><<display "orange">><<endif>><<if $hunger>50>>\u000aYou feel pretty full.<<else if $hunger<30>>\u000aYou are starving.<<else>> You are starting to get a bit hungry.<<endif>>\u000a[[Continue Sleeping|Sleep]]\u000a[[Wake up|Day]]\u000a<<else>>\u000aYou pass out from hunger\u000a[[Continue|HungerEnding]]\u000a<<endif>>
+p360
+sg23
+VSleep
+p361
+sg25
+g26
+((I2018
+I4
+I9
+I9
+I15
+I3
+I0
+I99
+I1
+tp362
+(dp363
+tp364
+Rp365
+sg31
+(lp366
+sg33
+g26
+((I2018
+I4
+I9
+I9
+I4
+I21
+I0
+I99
+I1
+tp367
+(dp368
+tp369
+Rp370
+sbsa(dp371
+g14
+I00
+sg15
+(lp372
+I1130
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p373
+(dp374
+g21
+V(function () {\u000a  "use strict";\u000a  version.extensions['soundMacros'] = {\u000a    major: 1,\u000a    minor: 1,\u000a    revision: 2\u000a  };\u000a  var p = macros['playsound'] = {\u000a    soundtracks: {},\u000a    handler: function (a, b, c, d) {\u000a      var loop = function (m) {\u000a          if (m.loop == undefined) {\u000a            m.loopfn = function () {\u000a              this.play();\u000a            };\u000a            m.addEventListener('ended', m.loopfn, 0);\u000a          } else m.loop = true;\u000a          m.play();\u000a          };\u000a      var s = eval(d.fullArgs());\u000a      if (s) {\u000a        s = s.toString();\u000a        var m = this.soundtracks[s.slice(0, s.lastIndexOf("."))];\u000a        if (m) {\u000a          if (b == "playsound") {\u000a            m.play();\u000a          } else if (b == "loopsound") {\u000a            loop(m);\u000a          } else if (b == "pausesound") {\u000a            m.pause();\u000a          } else if (b == "unloopsound") {\u000a            if (m.loop != undefined) {\u000a              m.loop = false;\u000a            } else if (m.loopfn) {\u000a              m.removeEventListener('ended', m.loopfn);\u000a              delete m.loopfn;\u000a            }\u000a          } else if (b == "stopsound") {\u000a            m.pause();\u000a            m.currentTime = 0;\u000a          } else if (b == "fadeoutsound" || b == "fadeinsound") {\u000a            if (m.interval) clearInterval(m.interval);\u000a            if (b == "fadeinsound") {\u000a              if (m.currentTime>0) return;\u000a              m.volume = 0;\u000a              loop(m);\u000a            } else {\u000a              if (!m.currentTime) return;\u000a              m.play();\u000a            }\u000a            var v = m.volume;\u000a            m.interval = setInterval(function () {\u000a              v = Math.min(1, Math.max(0, v + 0.005 * (b == "fadeinsound" ? 1 : -1)));\u000a              m.volume = Math.easeInOut(v);\u000a              if (v == 0 || v == 1) clearInterval(m.interval);\u000a              if (v == 0) {\u000a                m.pause();\u000a                m.currentTime = 0;\u000a                m.volume = 1;\u000a              }\u000a            }, 10);\u000a          }\u000a        }\u000a      }\u000a    }\u000a  }\u000a  macros['fadeinsound'] = p;\u000a  macros['fadeoutsound'] = p;\u000a  macros['unloopsound'] = p;\u000a  macros['loopsound'] = p;\u000a  macros['pausesound'] = p;\u000a  macros['stopsound'] = p;\u000a  macros['stopallsound'] = {\u000a    handler: function () {\u000a      var s = macros.playsound.soundtracks;\u000a      for (var j in s) {\u000a		if (s.hasOwnProperty(j)) {\u000a          s[j].pause();\u000a          if (s[j].currentTime) {\u000a		    s[j].currentTime = 0;\u000a		  }\u000a		}\u000a      }\u000a    }\u000a  }\u000a  var div = document.getElementById("storeArea").firstChild;\u000a  var fe = ["ogg", "mp3", "wav", "webm"];\u000a  while (div) {\u000a    var b = String.fromCharCode(92);\u000a    var q = '"';\u000a    var re = "['" + q + "]([^" + q + "']*?)" + b + ".(ogg|mp3|wav|webm)['" + q + "]";\u000a    k(new RegExp(re, "gi"));\u000a    div = div.nextSibling;\u000a  }\u000a\u000a  function k(c, e) {\u000a    do {\u000a      var d = c.exec(div.innerHTML);\u000a      if (d) {\u000a        var a = new Audio();\u000a        if (a.canPlayType) {\u000a          for (var i = -1; i < fe.length; i += 1) {\u000a            if (i >= 0) d[2] = fe[i];\u000a            if (a.canPlayType("audio/" + d[2])) break;\u000a          }\u000a          if (i < fe.length) {\u000a            a.setAttribute("src", d[1] + "." + d[2]);\u000a            a.interval = null;\u000a            macros.playsound.soundtracks[d[1]] = a;\u000a          } else console.log("Browser can't play '" + d[1] + "'");\u000a        }\u000a      }\u000a    } while (d);\u000a  }\u000a}());
+p375
+sg23
+Vaudio
+p376
+sg25
+g26
+((I2018
+I4
+I9
+I10
+I50
+I2
+I0
+I99
+I1
+tp377
+(dp378
+tp379
+Rp380
+sg31
+(lp381
+Vscript
+p382
+asg33
+g26
+((I2018
+I4
+I9
+I9
+I45
+I12
+I0
+I99
+I1
+tp383
+(dp384
+tp385
+Rp386
+sbsa(dp387
+g14
+I00
+sg15
+(lp388
+I1130
+aI10
+asg17
+(itiddlywiki
+Tiddler
+p389
+(dp390
+g21
+V<style>\u000abody {\u000a  margin: 0;\u000a  padding: 0;\u000a}\u000a#passages {\u000a  margin: 0 5% 0 5%;\u000a  padding: 2.5% 0 5% 0;\u000a  border-left: 	#598b13 solid 1.5em;\u000a  height:auto;\u000a  background: #3e8131;\u000a  background: -webkit-radial-gradient(center, ellipse cover,  #3e8131 0%,#000000 80%);\u000a  background: radial-gradient(ellipse at center,  #3e8131 0%,#000000 80%);\u000a}\u000a.header {\u000a  width: 25%;\u000a  border-top: #598b13 solid 0.1em;\u000a  margin: auto;\u000a  padding: 0 0 2.5% 0;\u000a}\u000a.passage {\u000a  margin: 2em;\u000a  font-family: "Georgia", serif;\u000a  font-size:2.2em; \u000a  color: #87cd3f;\u000a  text-shadow: sienna 0.05em 0.05em 0.05em;\u000a}\u000aa.internalLink, a.externalLink {\u000a  color: #adde87;\u000a  text-shadow: #87cd3f 0.05em 0.05em 0.05em;\u000a}\u000aa.internalLink:hover, a.externalLink:hover {\u000a  color: #e3ffdc;\u000a  text-decoration: none;\u000a  text-shadow: #87cd3f 0.05em 0.05em 0.05em;\u000a}\u000a#sidebar {\u000a	display:none;\u000a}\u000a\u000a</style>
+p391
+sg23
+Vgreen
+p392
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I40
+I59
+I0
+I99
+I1
+tp393
+(dp394
+tp395
+Rp396
+sg31
+(lp397
+sg33
+g26
+((I2018
+I4
+I9
+I8
+I45
+I21
+I0
+I99
+I1
+tp398
+(dp399
+tp400
+Rp401
+sbsa(dp402
+g14
+I00
+sg15
+(lp403
+I990
+aI430
+asg17
+(itiddlywiki
+Tiddler
+p404
+(dp405
+g21
+Vhtml {\u000a  background: [img[background]] fixed, dodgerblue;\u000a  background-size: cover;\u000a  min-height: 100%;\u000a  height:100%;\u000a}\u000abody {\u000a  background-color: rgba(0,0,0,0.4);\u000a  background-attachment: fixed;\u000a  margin: 0;\u000a  padding: 0% 15% 0% 5em;\u000a  font-size: 100%;\u000a  font-family: Oxygen, "Century Gothic", sans-serif !important;\u000a  font-weight: 300;\u000a  min-height: 100%;\u000a}\u000a#sidebar, #passages {\u000a  padding-top: 4em;\u000a  padding-bottom: 0em;\u000a}\u000a#passages {\u000a  margin-left: 60%;\u000a  width: 50%;\u000a  min-height: 100%;\u000a  padding-bottom: 0;\u000a  margin-bottom: 0;\u000a  border: 0;\u000a}\u000a#passages::before {\u000a  border-left: 3px solid rgba(255,255,255,0.2);\u000a  position:fixed;\u000a  height:100%;\u000a  left: 50%;\u000a  top:0;\u000a  content:'';\u000a}\u000a.passage {\u000a  margin: 0px;\u000a  color: white;\u000a  opacity: 0.7;\u000a  font-size: 100%;\u000a  text-align:justify;\u000a  margin:auto;\u000a  padding: 0px 0px 5em 0px;\u000a}\u000a.passage a {\u000a  color: #cde8ff;\u000a  opacity: 1;\u000a}\u000a.passage a:hover {\u000a  color: white;\u000a  text-decoration: none;\u000a  border-bottom: 1px white solid;\u000a}\u000a.passage a:visited {\u000a  color: #d7ffcd;\u000a}\u000a#sidebar {\u000a  left: 1em;\u000a  width: 50%;\u000a  font-family: "Alegreya Sans","Century Gothic",sans-serif !important;\u000a}\u000a#sidebar li {\u000a  color: white !important;\u000a  text-align: center;\u000a  opacity: 0.3;\u000a}\u000a#sidebar #storyTitle {\u000a  font-size: 4em;\u000a  line-height:0.8em;\u000a}\u000a#sidebar > :not(.storyElement) {\u000a  display:none;\u000a}\u000a/* Shrink the page when viewed on devices with a low screen width */\u000a@media screen and (max-width: 1600px) {\u000a  .passage, #sidebar { font-size: 90%; }\u000a}\u000a@media screen and (max-width: 1200px) {\u000a  #sidebar { font-size: 70%;}\u000a  .passage { font-size: 85%;}\u000a}\u000a@media screen and (max-width: 960px) {\u000a  #passages::before { display:none; }\u000a  #sidebar { position: relative; width: 100%;}\u000a  #passages { margin: 0; padding: 5%; width: 90%; border: 0; }\u000a}\u000a
+p406
+sg23
+Venlightenment 
+p407
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I31
+I31
+I0
+I99
+I1
+tp408
+(dp409
+tp410
+Rp411
+sg31
+(lp412
+Vstylesheet
+p413
+aVenlight
+p414
+asg33
+g26
+((I2018
+I4
+I9
+I11
+I31
+I9
+I0
+I99
+I1
+tp415
+(dp416
+tp417
+Rp418
+sbsa(dp419
+g14
+I00
+sg15
+(lp420
+I570
+aI150
+asg17
+(itiddlywiki
+Tiddler
+p421
+(dp422
+g21
+VThis is the apex of the mountain.\u000a\u000aThe apex of your life.\u000a\u000aYou have reached enlightenment upon this frozen peak.\u000a\u000aYou look above and you can feel the stars high above you - reaching out across the cosmos: across a million millenia.\u000a\u000aYou embrace eternity.\u000a\u000aYou experience Tranquility.\u000a\u000a\u000aGOOD END.\u000a\u000a<<display "green">>\u000a[[Restart|Start]]
+p423
+sg23
+VPeakEnd
+p424
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I36
+I15
+I0
+I99
+I1
+tp425
+(dp426
+tp427
+Rp428
+sg31
+(lp429
+sg33
+g26
+((I2018
+I4
+I9
+I11
+I32
+I3
+I0
+I99
+I1
+tp430
+(dp431
+tp432
+Rp433
+sbsa(dp434
+g14
+I00
+sg15
+(lp435
+I1130
+aI430
+asg17
+(itiddlywiki
+Tiddler
+p436
+(dp437
+g21
+V<style>\u000a\u000ahtml {\u000a  background: [img[background]] fixed, dodgerblue;\u000a  background-size: cover;\u000a  min-height: 100%;\u000a  height:100%;\u000a}\u000abody {\u000a  background-color: rgba(0,0,0,0.4);\u000a  background-attachment: fixed;\u000a  margin: 0;\u000a  padding: 0% 15% 0% 5em;\u000a  font-size: 100%;\u000a  font-family: Oxygen, "Century Gothic", sans-serif !important;\u000a  font-weight: 300;\u000a  min-height: 100%;\u000a}\u000a#sidebar, #passages {\u000a  padding-top: 4em;\u000a  padding-bottom: 0em;\u000a}\u000a#passages {\u000a  margin-left: 60%;\u000a  width: 50%;\u000a  min-height: 100%;\u000a  padding-bottom: 0;\u000a  margin-bottom: 0;\u000a  border: 0;\u000a}\u000a#passages::before {\u000a  border-left: 3px solid rgba(255,255,255,0.2);\u000a  position:fixed;\u000a  height:100%;\u000a  left: 50%;\u000a  top:0;\u000a  content:'';\u000a}\u000a.passage {\u000a  margin: 0px;\u000a  color: white;\u000a  opacity: 0.7;\u000a  font-size: 100%;\u000a  text-align:justify;\u000a  margin:auto;\u000a  padding: 0px 0px 5em 0px;\u000a}\u000a.passage a {\u000a  color: #cde8ff;\u000a  opacity: 1;\u000a}\u000a.passage a:hover {\u000a  color: white;\u000a  text-decoration: none;\u000a  border-bottom: 1px white solid;\u000a}\u000a.passage a:visited {\u000a  color: #d7ffcd;\u000a}\u000a#sidebar {\u000a  left: 1em;\u000a  width: 50%;\u000a  font-family: "Alegreya Sans","Century Gothic",sans-serif !important;\u000a}\u000a#sidebar li {\u000a  color: white !important;\u000a  text-align: center;\u000a  opacity: 0.3;\u000a}\u000a#sidebar #storyTitle {\u000a  font-size: 4em;\u000a  line-height:0.8em;\u000a}\u000a#sidebar > :not(.storyElement) {\u000a  display:none;\u000a}\u000a/* Shrink the page when viewed on devices with a low screen width */\u000a@media screen and (max-width: 1600px) {\u000a  .passage, #sidebar { font-size: 90%; }\u000a}\u000a@media screen and (max-width: 1200px) {\u000a  #sidebar { font-size: 70%;}\u000a  .passage { font-size: 85%;}\u000a}\u000a@media screen and (max-width: 960px) {\u000a  #passages::before { display:none; }\u000a  #sidebar { position: relative; width: 100%;}\u000a  #passages { margin: 0; padding: 5%; width: 90%; border: 0; }\u000a}\u000a\u000a</style>
+p438
+sg23
+Vlight
+p439
+sg25
+g26
+((I2018
+I4
+I9
+I11
+I33
+I27
+I0
+I99
+I1
+tp440
+(dp441
+tp442
+Rp443
+sg31
+(lp444
+sg33
+g26
+((I2018
+I4
+I9
+I11
+I32
+I48
+I0
+I99
+I1
+tp445
+(dp446
+tp447
+Rp448
+sbsasS'scale'
+p449
+I1
+sS'snapping'
+p450
+I01
+ss.
